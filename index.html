@@ -1,109 +1,447 @@
-<!doctype html-->
-
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-  <title>Praveen Gowda I V | Web/iOS Developer</title>
 
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="animate.css">
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Praveen Gowda I V</title>
+	<meta name="description" content="iOS Intern at Fantasmo.io, previously Tile and SAP | CS Grad Student at USC">  
+	<meta name="author" content="Praveen Gowda I V">
 
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="57x57" href="images/apple-touch-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-152x152.png" />
-  <meta name="msapplication-square70x70logo" content="images/smalltile.png" />
-  <meta name="msapplication-square150x150logo" content="images/mediumtile.png" />
-  <meta name="msapplication-wide310x150logo" content="images/widetile.png" />
-  <meta name="msapplication-square310x310logo" content="images/largetile.png" />
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <link rel="stylesheet" href="social/css/social.css">
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900' rel='stylesheet' type='text/css'>
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">  
+   <link rel="stylesheet" href="css/main.css">  
 
-  <meta name="viewport" content="width=device-width, initial-scale =1.0, user-scaleable = no">
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 </head>
 
-<body class="animated fadeIn">
+<body id="top">
 
-  <section id="intro">
+	<!-- header 
+   ================================================== -->
+   <header> 
 
-    <div class="intro-container">
+   	<div class="header-logo">
+	      <a href="index.html">Praveen Gowda I V</a>
+	   </div> 
 
-      <h1>Hey, I'm <span class="bolder">Praveen Gowda I V</span>, an enthusiastic Web <span class="amp">&amp;</a></span> iOS Developer.</h1>
+		<a id="header-menu-trigger" href="#0">
+		 	<span class="header-menu-text">Menu</span>
+		  	<span class="header-menu-icon"></span>
+		</a> 
 
-      <!--Icons-->
+		<nav id="menu-nav-wrap">
 
-      <div class="icons animated fadeInDown">
+			<a href="#0" class="close-button" title="close"><span>Close</span></a>	
 
-        <a class="twitter" href="https://twitter.com/praveen_vvstgy"><i class="icon-twitter"></i></a>
+	   	<h3>Praveen</h3>  
 
-        <a class="facebook" href="https://www.facebook.com/praveen.vvstgy"><i class="icon-facebook"></i></a>
+			<ul class="nav-list">
+				<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+				<li><a class="smoothscroll" href="#about" title="">About</a></li>
+				<li><a class="smoothscroll" href="#portfolio" title="">Apps &amp; Projects</a></li>
+				<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>						
+			</ul>	
 
-        <a class="mail" href="mailto:praveen.vvstgy@gmail.com"><i class="icon-mail"></i></a>
+			<ul class="header-social-list">
+	         <li>
+	         	<a href="https://www.facebook.com/praveen.vvstgy"><i class="fa fa-facebook-square"></i></a>
+	         </li>
+	         <li>
+	         	<a href="https://twitter.com/praveen_vvstgy"><i class="fa fa-twitter"></i></a>
+	         </li>
+	         <li>
+	         	<a href="http://github.com/praveenvvstgy"><i class="fa fa-github"></i></a>
+	         </li> 
+	         <li>
+	         	<a href="https://www.instagram.com/praveenvvstgy"><i class="fa fa-instagram"></i></a>
+	         </li>
+	         <li>
+	         	<a href="http://linkedin.com/in/praveeniv/"><i class="fa fa-linkedin"></i></a>
+	         </li>        
+	      </ul>		
 
-      </div>
+		</nav>  <!-- end #menu-nav-wrap -->
 
-    </div>
+	</header> <!-- end header -->  
 
-  </section>
 
-  <!--About-->
+   <!-- home
+   ================================================== -->
+   <section id="home">
 
-  <section id="about">
+   	<div class="overlay"></div>
 
-    <div class="container">
+   	<div class="home-content-table">	
+		   <div class="home-content-tablecell">
+		   	<div class="row">
+		   		<div class="col-twelve">		   			
+			  		
+			  				<h3 class="animate-intro">Hey, I am</h3>
+				  			<h1 class="animate-intro">
+							Praveen  
+							Gowda
+				  			</h1>	
 
-      <h2>About Me<span class="icon"><i class="icon-user-1"></i></span></h2>
+				  			<div class="more animate-intro">
+				  				<a class="smoothscroll button stroke" href="#about">
+				  					Learn More
+				  				</a>
+				  			</div>							
 
-      <!-- about text -->
+			  		</div> <!-- end col-twelve --> 
+		   	</div> <!-- end row --> 
+		   </div> <!-- end home-content-tablecell --> 		   
+		</div> <!-- end home-content-table -->
 
-      <h3>I started out with designing and developing Websites and Webapps. Since early 2014, I have fallen in love with iOS Development, building iPhone/iPad Apps and Games.
-        I work as a freelancer whilst pursuing my Computer Science Degree.
-        <br />
-         In addition to client work, I have contributed to open source projects and
-      published apps in the AppStore.
-        <br />
-        In my free time, I like writing about Web &amp; iOS Development at <a class="link" href="http://codeuse.com">CodeUse</a></h3>
+		<ul class="home-social-list">
+	      <li class="animate-intro">
+	        	<a href="https://www.facebook.com/praveen.vvstgy"><i class="fa fa-facebook-square"></i></a>
+	      </li>
+	      <li class="animate-intro">
+	        	<a href="https://twitter.com/praveen_vvstgy"><i class="fa fa-twitter"></i></a>
+	      </li>
+	      <li class="animate-intro">
+	        	<a href="http://github.com/praveenvvstgy"><i class="fa fa-github"></i></a>
+	      </li>
+         <li class="animate-intro">
+           	<a href="http://linkedin.com/in/praveeniv"><i class="fa fa-linkedin"></i></a>
+         </li>
+	      <li class="animate-intro">
+	        	<a href="https://www.instagram.com/praveenvvstgy"><i class="fa fa-instagram"></i></a>
+	      </li>	      
+	   </ul> <!-- end home-social-list -->	
 
-    </div>
+		<div class="scrolldown">
+			<a href="#about" class="scroll-icon smoothscroll">		
+		   	Scroll Down		   	
+		   	<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+			</a>
+		</div>			
+   
+   </section> <!-- end home -->
 
-  </section>
 
-  <section id="contact">
+   <!-- about
+   ================================================== -->
+   <section id="about">
 
-    <div class="container">
+   	<div class="row about-wrap">
+   		<div class="col-full">
 
-      <h2>Contact<span class="icon"><i class="icon-comment-1"></i></span></h2>
+   			<div class="about-profile-bg"></div>
 
-      <h3>If you are looking to hire me, work together or just start a conversation, kindly send me an <a class="link" href="mailto:praveen.vvstgy@gmail.com">email</a>. I'm currently <span class="available">available</span> for freelance work.</h3>
+				<div class="intro">
+					<h3 class="animate-this">About Me</h3>
+	   			<p class="lead animate-this">Computer Science Graduate Student at University of Southern California. iOS Developer at Fantasmo.io. Previously, iOS at Tile and SAP</p>
+				</div>   
 
-    </div>
+   		</div> <!-- end col-full  -->
+   	</div> <!-- end about-wrap  -->
 
-  </section>
+   </section> <!-- end about -->
 
-    <section id="Hardware">
 
-    <div class="container">
+   <!-- about
+   ================================================== -->
 
-      <h2>Projects<span class="icon"><i class="icon-desktop"></i></span></h2>
 
-      <h3>Here are a few projects I have worked on:</h3>
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+   	
+   	<div class="intro-wrap">
 
-      <ul>
-        <li><a class="link" href="https://itunes.apple.com/us/app/linuxdocs-browse-linux-unix/id980044995?mt=8&uo=6&at=&ct=">LinuxDocs on AppStore</a></li>
-        <li><a class="link" href="http://html5polyfills.com">HTML5 Polyfills</a></li>
-        <li><a class="link" href="http://praveengowda.com/dodgealert/">Dodge Alert</a></li>
-      </ul>
+   		<div class="row narrow section-intro with-bottom-sep animate-this">
+	   		<div class="col-twelve">
+	   			<h3>Showcase</h3>
+		   		<h1>My Apps &amp; Projects.</h1>  			
+		   		
+		   		<p class="lead">Building for Mobile is my passion. I have developed several iOS apps, Alexa Skills and a Mac App</p>	   			
+	   		</div>   		
+	   	</div> <!-- end row section-intro -->   		
 
-    </div>
+   	</div> <!-- end intro-wrap -->   	
 
-  </section>
+   	<div class="row portfolio-content">
+   		<div class="col-twelve">
+   			<div id="folio-wrap" class="bricks-wrapper">					
+
+   				<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-colonycounter.jpg" data-sub-html="#01" > 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/colonycounter.jpg" alt="EZ Colony Counter">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      iOS App
+		     					   </span>
+		     					   <h3 class="folio-title">EZ Colony Counter</h3>	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://appsto.re/i67M3wr" class='details-link' title="EZ Colony Counter on the App Store">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+						
+						<div id="01" class='hide'>
+							<h4>EZ Colony Counter</h4>
+							<p>Detect and Count bacterial colonies in captured images of agar plates. <a href="https://appsto.re/i67M3wr">Open on the App Store</a></p>
+						</div>
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-floatcal.jpg"  data-sub-html="#02" >  	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/floatcal.jpg" alt="FloatCal">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Mac App
+		     					   </span>
+		     					   <h3 class="folio-title">FloatCal</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://macappsto.re/in/n81ibb.m" class='details-link' title="FloatCal on the App Store">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="02" class='hide'>
+							<h4>FloatCal</h4>
+							<p>A Calendar App that lives in the Mac’s menu bar. <a href="https://macappsto.re/in/n81ibb.m">Open on the App Store</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-pikachat.jpg" data-sub-html="#03"> 	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/pikachat.jpg" alt="PikaChat">	                     
+	                     <div class="item-text">
+	                     	<span class="folio-types">
+		     					      iOS App
+		     					   </span>
+		     					   <h3 class="folio-title">PikaChat</h3>  	     					   
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://appsto.re/us/RJM6db.i" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="03" class='hide'>
+							<h4>PikaChat</h4>
+							<p>Location based, real-time iOS Chat App for Pokemon Go players. <a href="https://appsto.re/us/RJM6db.i">Open on the App Store</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-cryptowatch.png"  data-sub-html="#04">     	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/cryptowatch.jpg" alt="Trip Planner">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Alexa Skill
+		     					   </span>
+		     					   <h3 class="folio-title">Crypto Watch</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.amazon.com/Hitherto-Labs-Crypto-watch/dp/B0746D5NHP" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="04" class='hide'>
+							<h4>Crypto Watch</h4>
+							<p>Crypto Watch is an Alexa skill that provides real time prices of Crypto Currencies. Currently Bitcoin, Ethereum and Litecoin are supported. <a href="https://www.amazon.com/Hitherto-Labs-Crypto-watch/dp/B0746D5NHP">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item --> 
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this" data-src="images/portfolio/gallery/g-hungryme.jpg" data-sub-html="#05" >   	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/hungryme.jpg" alt="HungryMe">	                     
+	                     <div class="item-text">	                     		     					    
+		     					   <span class="folio-types">
+		     					      iOS App
+		     					   </span>
+		     					   <h3 class="folio-title">HungryMe</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://appsto.re/i67G6WZ" class='details-link' title="HungryMe on the App Store">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->	
+
+	               <div id="05" class='hide'>
+							<h4>HungryMe</h4>
+							<p>Food Discovery app that searches favorite food nearby in one tap. <a href="https://appsto.re/i67G6WZ">Open on the App Store</a></p>
+						</div>               
+	        		</div> <!-- end folio-item -->
+
+
+	        		<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-seriesguide.png"  data-sub-html="#06">     	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/seriesguide.jpg" alt="Series Guide">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Alexa Skill
+		     					   </span>
+		     					   <h3 class="folio-title">Series Guide</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.amazon.com/Hitherto-Labs-Series-Guide/dp/B074DCTDWM/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1504519288&sr=1-1&keywords=series+guide" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="06" class='hide'>
+							<h4>Series Guide</h4>
+							<p>Series Guide is an Alexa skill that is dedicated to tell you when the next episode of your favorite series will air. <a href="https://www.amazon.com/Hitherto-Labs-Series-Guide/dp/B074DCTDWM/ref=sr_1_1?s=digital-skills&ie=UTF8&qid=1504519288&sr=1-1&keywords=series+guide">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->
+
+				<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-linuxdocs.jpg"  data-sub-html="#07" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/linuxdocs.jpg" alt="LinuxDocs">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      iOS App
+		     					   </span>
+		     					   <h3 class="folio-title">LinuxDocs</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://appsto.re/i6L64h8" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="07" class='hide'>
+							<h4>LinuxDocs</h4>
+							<p>iOS app to browse Linux/UNIX ManPages and Cheatsheets offline. <a href="https://appsto.re/i6L64h8">Open on the App Store</a></p>
+						</div>  	               
+	        		</div> <!-- end folio-item -->
+	           
+	        	<div class="brick folio-item">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-tripplanner.png"  data-sub-html="#08">     	
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/tripplanner.jpg" alt="Trip Planner">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      Alexa Skill
+		     					   </span>
+		     					   <h3 class="folio-title">Trip Planner</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://www.amazon.com/gp/product/B0727YXWCQ" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="08" class='hide'>
+							<h4>Trip Planner</h4>
+							<p>A intelligent trip planner to help you explore a city. The planner uses AI and smart routing to build the best itinerary to visit the best places in the city within a day. Winner of Alexa SKills Challenge <a href="https://www.amazon.com/gp/product/B0727YXWCQ">Details</a></p>
+						</div>	               
+	        		</div> <!-- end folio-item -->  
+
+	        		<div class="brick folio-item" style="width: 100%">
+	               <div class="item-wrap animate-this"  data-src="images/portfolio/gallery/g-dodgealert.gif"  data-sub-html="#09" >
+	                  <a href="#" class="overlay">
+	                  	<img src="images/portfolio/dodgealert.png" alt="DodgeAlert">	                     
+	                     <div class="item-text">	     					    
+		     					   <span class="folio-types">
+		     					      HTML5 Game
+		     					   </span>
+		     					   <h3 class="folio-title">DodgeAlert</h3>
+		     					</div>                                        
+	                  </a>
+	                  <a href="https://appsto.re/i6L64h8" class='details-link' title="details">
+	                  	<i class="icon-link"></i>
+	                  </a>
+	               </div> <!-- end item-wrap -->
+
+	               <div id="09" class='hide'>
+							<h4>DodgeAlert</h4>
+							<p>A web based platformer game developed using the JavaScript Phaser.js game
+library. <a href="https://dodgealert.praveengowda.com">Play Online</a></p>
+						</div>  	               
+	        		</div> <!-- end folio-item -->
+   			</div> <!-- end folio-wrap -->
+   		</div> <!-- end twelve -->
+   	</div> <!-- end portfolio-content -->   	
+
+   </section>  <!-- end portfolio -->
+
+	<!-- contact
+   ================================================== -->
+   <section id="contact">
+
+      <div class="overlay"></div>
+
+		<div class="row narrow section-intro with-bottom-sep animate-this">
+   		<div class="col-twelve">
+   			<h3>Contact</h3>
+   			<h1>Get In Touch.</h1>
+
+   			<p class="lead">Email: praveen.vvstgy [at] gmail</p>
+   		</div> 
+   	</div> <!-- end section-intro -->
+		
+	</section> <!-- end contact -->
+
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+   	<div class="footer-bottom">
+
+      	<div class="row">
+
+      		<div class="col-twelve">
+	      		<div class="copyright">
+		         	<span>© Copyright Praveen Gowda I V 2017.</span> 
+		         </div>		               
+	      	</div>
+
+      	</div>   	
+
+      </div> <!-- end footer-bottom -->
+
+      <div id="go-top">
+		   <a class="smoothscroll" title="Back to Top" href="#top">
+		   	<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+		   </a>
+		</div>		
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
 
 </body>
+
+</html>
