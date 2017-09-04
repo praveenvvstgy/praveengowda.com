@@ -1153,6 +1153,11 @@ input::-moz-focus-inner {
   font-size: 1.8;
   line-height: 1.833;
 }
+.section-intro .lead strong {
+  font-family: "montserrat-bold", sans-serif;
+  font-size: 2rem;
+  line-height: 1.833;
+}
 .section-intro.with-bottom-sep {
   padding-bottom: 4.2rem;
   position: relative;
